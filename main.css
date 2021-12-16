@@ -1,0 +1,138 @@
+.main-section {
+    position: relative;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+    background: url("images/shooter-1a.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-shadow: inset -1px -1px 10px rgba(0, 0, 0, 0.801);
+    
+}
+
+.main-section > h1 {
+    position: absolute;
+    bottom: 3%;
+    width: fit-content;
+    margin: 0rem 0rem 0rem 0.4rem;
+    padding: 0;
+    color: white;
+    padding: 0.5rem;
+    background: rgba(0,0,0,0.4);
+    border-radius: 8px;
+}
+
+.types-of-shooting__items {
+    padding-bottom: 1.2rem;
+}
+
+.types-of-shooting__items > h1 {
+    margin-top: 0;
+    padding-top: 1.2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.types-of-shooting__item{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto 2.2rem auto;
+    display: flex;
+}
+
+.types-of-shooting__item h1 {
+    padding: 0.2rem 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+}
+
+.types-of-shooting__item h2 {
+    padding: 0.5rem;
+    max-width: 400px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.types-of-shooting__item p {
+    padding: 0.5rem;
+    text-align: center;
+    max-width: 400px;
+    margin: 0.5rem auto;
+}
+
+.types-of-shooting__description {
+    vertical-align: middle;
+    width: 35%;
+    background: rgba(255, 255, 255, 0.835);
+    border-radius: 8px;
+    margin: auto;
+}
+
+.types-of-shooting__image {
+    margin: auto 0;
+    width: 60%;
+}
+
+.ft-image,
+.hft-image,
+.pistol-image,
+.plinking-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+
+.button {
+    font-family: BebasNeue-Regular;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: black;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: yellow;
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+    border-radius: 8px;
+}
+
+.button:hover,
+.button:active {
+    background: rgb(0, 0, 0);
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+
+@media (max-width: 650px) {
+
+    .types-of-shooting__item {
+        display: block;
+
+    }
+    
+    .types-of-shooting__image {
+        display: block;
+        margin: auto;
+        width: 95%;
+    }
+
+    .types-of-shooting__description {
+        display: block;
+        width: 100%;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    
+}
